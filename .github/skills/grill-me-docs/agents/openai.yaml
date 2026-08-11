@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill Me Docs"
+  short_description: "Alias for Grill with Docs"
+policy:
+  allow_implicit_invocation: false

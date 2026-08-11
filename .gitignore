@@ -1,0 +1,7 @@
+node_modules/
+dist/
+ifc-event-exports/
+%USERPROFILE%/
+*.tmp.js
+*.log
+.DS_Store

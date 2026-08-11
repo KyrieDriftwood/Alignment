@@ -1,0 +1,2675 @@
+{
+  "events": [
+    {
+      "id": "f785e854-dedf-4c9c-92fb-90ecebaa9408",
+      "ifcClass": "IfcEvent",
+      "name": "TunnelAnnotationMarker",
+      "timestamp": "2026-08-04T21:08:20.109Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.013603926745041147,
+          "y": 30.001956300929493,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -16.74685203445181,
+          "y": 23.062895545141277,
+          "z": 0
+        },
+        "station": 30.001956300929493,
+        "xRaw": -0.013603926745041147,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "e3cb1d0b-cb8e-440f-a235-36432a4a3fef",
+      "ifcClass": "IfcEvent",
+      "name": "TunnelAnnotationMarker",
+      "timestamp": "2026-08-04T21:11:14.793Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.013603926745041147,
+          "y": 30.0020326443804,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -16.746915671505253,
+          "y": 23.06293771916083,
+          "z": 0
+        },
+        "station": 30.0020326443804,
+        "xRaw": -0.013603926745041147,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "961317e4-a678-4e18-b614-7f8ec0e73b50",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:28:41.331Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.439104911608574,
+          "z": 2.5912103460652522
+        },
+        "worldXYZ": {
+          "x": -17.111242812839368,
+          "y": 23.30438730161499,
+          "z": 0
+        },
+        "station": 30.439104911608574,
+        "xRaw": -5.591210346065252,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "tk2RiskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "6f678751-f2b3-43c2-bdb5-f6962910f18c",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:00.368Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.4647459372496,
+          "z": 3.6795237937374887
+        },
+        "worldXYZ": {
+          "x": -17.966178920491586,
+          "y": 23.870976893215868,
+          "z": 0
+        },
+        "station": 31.4647459372496,
+        "xRaw": -6.679523793737489,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "eca39cba-b40f-425b-a568-43b9a5942bc1",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:15.939Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 28.387822860326523,
+          "z": 2.6365567397182623
+        },
+        "worldXYZ": {
+          "x": -15.401370597534932,
+          "y": 22.171208118413233,
+          "z": 0
+        },
+        "station": 28.387822860326523,
+        "xRaw": -5.636556739718262,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "b99dc9da-add4-423c-9917-bd3cc28aa7ec",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:44.230Z",
+      "data": {
+        "localXYZ": {
+          "x": 0.6550264576744987,
+          "y": 35.41499340869336,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -21.258957888053256,
+          "y": 26.0531917672444,
+          "z": 0
+        },
+        "station": 35.41499340869336,
+        "xRaw": 0.6550264576744987,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "732ae873-9a06-45d0-abab-07214871d1da",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:44.829Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.52878189597583,
+          "z": 1.9724108188480862
+        },
+        "worldXYZ": {
+          "x": -17.185994202501274,
+          "y": 23.353927096414914,
+          "z": 0
+        },
+        "station": 30.52878189597583,
+        "xRaw": -4.972410818848086,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "7815d945-e144-419b-b25f-b95596e65ef3",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:46.342Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 36.35207506866659,
+          "z": 3.3729370023083796
+        },
+        "worldXYZ": {
+          "x": -22.040074211309808,
+          "y": 26.57085896438978,
+          "z": 0
+        },
+        "station": 36.35207506866659,
+        "xRaw": 6.37293700230838,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "9041f0dd-974c-4d7d-b92f-884cc372e69b",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:49.200Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 28.654618576029378,
+          "z": 2.985711421694597
+        },
+        "worldXYZ": {
+          "x": -15.623761555988187,
+          "y": 22.318592702124153,
+          "z": 0
+        },
+        "station": 28.654618576029378,
+        "xRaw": -5.985711421694597,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "0efc228e-2359-4881-ad5a-764667a41728",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:50.280Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.202142003070875,
+          "z": 2.551439734760378
+        },
+        "worldXYZ": {
+          "x": -18.580844779745107,
+          "y": 24.278332805603096,
+          "z": 0
+        },
+        "station": 32.202142003070875,
+        "xRaw": -5.551439734760378,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "8be45ad4-d1ba-46fd-9be9-e7bdda35ac1f",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:53.789Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 35.81659983439618,
+          "z": 1.9905054724703453
+        },
+        "worldXYZ": {
+          "x": -21.59372202659178,
+          "y": 26.275049137449564,
+          "z": 0
+        },
+        "station": 35.81659983439618,
+        "xRaw": -4.990505472470345,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "2e4fe391-6ae2-4df7-89f8-f4f3c9390eb9",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:55.442Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 35.68273102582857,
+          "z": 1.1038674449796488
+        },
+        "worldXYZ": {
+          "x": -21.482133980412275,
+          "y": 26.20109668071451,
+          "z": 0
+        },
+        "station": 35.68273102582857,
+        "xRaw": -4.103867444979649,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "5cc051a4-9481-423f-aff3-12b5b413cb7f",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:56.956Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 35.88353423867998,
+          "z": 1.7009910145141998
+        },
+        "worldXYZ": {
+          "x": -21.649516049681534,
+          "y": 26.312025365817092,
+          "z": 0
+        },
+        "station": 35.88353423867998,
+        "xRaw": -4.7009910145142,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "41d5ba6d-defe-47cd-ae20-760305a0fb14",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:31:57.652Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 35.88353423867998,
+          "z": 2.0628840869593823
+        },
+        "worldXYZ": {
+          "x": -21.649516049681534,
+          "y": 26.312025365817092,
+          "z": 0
+        },
+        "station": 35.88353423867998,
+        "xRaw": -5.062884086959382,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "97074f2f-73f2-41e5-ba31-7d2d18ee9167",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:32:33.427Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 66.33199474738146,
+          "z": 0.9624028632162642
+        },
+        "worldXYZ": {
+          "x": -46.77158231933017,
+          "y": 43.469031672590674,
+          "z": 0
+        },
+        "station": 66.33199474738146,
+        "xRaw": 3.9624028632162642,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "140a5c7c-f824-46f0-872f-8e20e5ea04eb",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:40:12.535Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 27.618592091095753,
+          "z": 2.455171165106223
+        },
+        "worldXYZ": {
+          "x": -14.760168516795767,
+          "y": 21.746265924712574,
+          "z": 0
+        },
+        "station": 27.618592091095753,
+        "xRaw": -5.455171165106223,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "77716072-d4ef-49e4-8ac6-3a408fbf80b0",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:32.321Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.4647459372496,
+          "z": 0.14250508880272061
+        },
+        "worldXYZ": {
+          "x": -17.966178920491586,
+          "y": 23.870976893215868,
+          "z": 0
+        },
+        "station": 31.4647459372496,
+        "xRaw": -3.1425050888027206,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "897519dc-c4b0-47ae-af79-c366c68d82a8",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:32.974Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 29.926284398788063,
+          "z": 2.7725959206772917
+        },
+        "worldXYZ": {
+          "x": -16.68377475901326,
+          "y": 23.02109250581455,
+          "z": 0
+        },
+        "station": 29.926284398788063,
+        "xRaw": -5.772595920677292,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "1328893d-a30a-4c74-ade0-51db29c2715d",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:33.962Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.336808098687065,
+          "z": 1.9110144412701047
+        },
+        "worldXYZ": {
+          "x": -17.025972004751633,
+          "y": 23.247875999896102,
+          "z": 0
+        },
+        "station": 30.336808098687065,
+        "xRaw": -4.911014441270105,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "28983137-9ca9-4268-8645-f6de08296a80",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:34.473Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.197919209798176,
+          "z": 1.4575505047400057
+        },
+        "worldXYZ": {
+          "x": -16.9101994068404,
+          "y": 23.171150326033484,
+          "z": 0
+        },
+        "station": 30.197919209798176,
+        "xRaw": -4.457550504740006,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "bdfb9d21-c38e-4f30-a10e-621cb2cfde17",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:34.862Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 29.503474765353733,
+          "z": 2.455171165106223
+        },
+        "worldXYZ": {
+          "x": -16.33133641728421,
+          "y": 22.78752195672039,
+          "z": 0
+        },
+        "station": 29.503474765353733,
+        "xRaw": -5.455171165106223,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "b92a653e-e6ca-4642-82af-74ae2cf8c00b",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:42.686Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.95192542442909,
+          "z": 2.2737855904941835
+        },
+        "worldXYZ": {
+          "x": -14.625340643354477,
+          "y": 27.983713079611633,
+          "z": 0,
+          "centerlineX": -17.53871086666548,
+          "centerlineY": 23.58768209741543
+        },
+        "station": 30.95192542442909,
+        "xRaw": -5.2737855904941835,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "c85b88e8-eceb-4324-b0c2-db5bd1286338",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:44.418Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 30.054489526993187,
+          "z": 2.953981495289331
+        },
+        "worldXYZ": {
+          "x": -13.501514427249997,
+          "y": 28.054933125265254,
+          "z": 0,
+          "centerlineX": -16.790641772469783,
+          "centerlineY": 23.091916204764658
+        },
+        "station": 30.054489526993187,
+        "xRaw": -5.953981495289331,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "8cbc7136-0536-488a-bf03-5bb4a4ff7928",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:44.899Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 26.864585876464844,
+          "z": 3.4981382191254493
+        },
+        "worldXYZ": {
+          "x": -10.541924014223852,
+          "y": 26.746339824474727,
+          "z": 0,
+          "centerlineX": -14.131657056970688,
+          "centerlineY": 21.329734153330627
+        },
+        "station": 26.864585876464844,
+        "xRaw": -6.498138219125449,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "094e6206-90dd-46c6-ba57-937203e2f09b",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:41:45.685Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 25.19791920979818,
+          "z": 2.1377464095351533
+        },
+        "worldXYZ": {
+          "x": -9.904167083863635,
+          "y": 24.691659862200197,
+          "z": 0,
+          "centerlineX": -12.742385881951124,
+          "centerlineY": 20.409026067107025
+        },
+        "station": 25.19791920979818,
+        "xRaw": -5.137746409535153,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "4d31eef4-3882-4002-8848-808bcac306e6",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:42:12.027Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 30.054489526993187,
+          "z": 0.4780683845367171
+        },
+        "worldXYZ": {
+          "x": -18.7120131843855,
+          "y": 20.192728114111198,
+          "z": 0,
+          "centerlineX": -16.790641772469783,
+          "centerlineY": 23.091916204764658
+        },
+        "station": 30.054489526993187,
+        "xRaw": 3.478068384536717,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "156c8ea8-284d-47c8-b5bd-3d76fe3b95a5",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T21:50:19.493Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 159.37858595678784,
+          "z": 5
+        },
+        "worldXYZ": {
+          "x": -31.242325193285968,
+          "y": 81.8557985739286,
+          "z": 0,
+          "centerlineX": -29.873228925609304,
+          "centerlineY": 73.97382068701253
+        },
+        "station": 159.37858595678784,
+        "xRaw": -8,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "34e5db87-a02c-4ecb-a45f-6fda750b5378",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:00:57.734Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.9788561578020066,
+          "y": 30.73373996145357,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -17.356839601964456,
+          "y": 23.467151025363897,
+          "z": 0
+        },
+        "station": 30.73373996145357,
+        "xRaw": -0.9788561578020066,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "9d1acb60-120f-42cd-9110-aa3fa1fbf638",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:00:58.814Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 29.758130205356007,
+          "z": 1.334142119673757
+        },
+        "worldXYZ": {
+          "x": -16.543607694685516,
+          "y": 22.928199950426475,
+          "z": 0
+        },
+        "station": 29.758130205356007,
+        "xRaw": -4.334142119673757,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "e62582cc-18b1-40e0-9a2b-8b60e08bd58a",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:00:59.581Z",
+      "data": {
+        "localXYZ": {
+          "x": -2.531715776519511,
+          "y": 30.60042748084435,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -17.245715290022783,
+          "y": 23.39350589801881,
+          "z": 0
+        },
+        "station": 30.60042748084435,
+        "xRaw": -2.531715776519511,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "5e857cc0-8561-4fae-aa3b-78b83a65d755",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:00.239Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.71153859195546,
+          "z": 0.7795493987032196
+        },
+        "worldXYZ": {
+          "x": -18.171896073312688,
+          "y": 24.007311288919762,
+          "z": 0
+        },
+        "station": 31.71153859195546,
+        "xRaw": -3.7795493987032196,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "c6d7fdbc-66db-44ab-8da9-fd7831113091",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:00.928Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.96794884836572,
+          "z": 2.776083194197154
+        },
+        "worldXYZ": {
+          "x": -18.385630100225747,
+          "y": 24.14895868681998,
+          "z": 0
+        },
+        "station": 31.96794884836572,
+        "xRaw": -5.776083194197154,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "748bccf4-3fc6-4494-8890-d9cf6f96c143",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:01.988Z",
+      "data": {
+        "localXYZ": {
+          "x": -1.505719242724017,
+          "y": 32.993589874006744,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -19.240566207877965,
+          "y": 24.71554827842086,
+          "z": 0
+        },
+        "station": 32.993589874006744,
+        "xRaw": -1.505719242724017,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "f7a3ddf4-e1a3-41dd-808b-e4f7bfa2539a",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:02.758Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.30982919024606,
+          "z": 0.41906413007237076
+        },
+        "worldXYZ": {
+          "x": -18.670608802776485,
+          "y": 24.337821884020276,
+          "z": 0
+        },
+        "station": 32.30982919024606,
+        "xRaw": -3.4190641300723708,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "2fe64a99-9f8a-489d-91ea-aadb2730dadb",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:03.133Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 33.677350557767426,
+          "z": 1.6668977522560793
+        },
+        "worldXYZ": {
+          "x": -19.81052361297944,
+          "y": 25.093274672821444,
+          "z": 0
+        },
+        "station": 33.677350557767426,
+        "xRaw": -4.666897752256079,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "5e1d6cfb-eb34-4b7e-bbd7-becde09fe3db",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:03.404Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 33.250000130417,
+          "z": 2.5542461058089394
+        },
+        "worldXYZ": {
+          "x": -19.454300234791017,
+          "y": 24.85719567632108,
+          "z": 0
+        },
+        "station": 33.250000130417,
+        "xRaw": -5.554246105808939,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "49e578ef-34c5-41a8-a91b-845894d762e0",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:10.571Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.849361321864983,
+          "z": 2.2769497453236704
+        },
+        "worldXYZ": {
+          "x": -18.286779960861168,
+          "y": 24.083447990066198,
+          "z": 0
+        },
+        "station": 31.849361321864983,
+        "xRaw": -5.2769497453236704,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        }
+      }
+    },
+    {
+      "id": "ea18b1aa-f0c2-47ec-b670-c8ca297c9fc8",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:01:35.744Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 34.66987414237781,
+          "z": 0.9015597867387215
+        },
+        "worldXYZ": {
+          "x": -20.637854256904774,
+          "y": 25.641569366968614,
+          "z": 0
+        },
+        "station": 34.66987414237781,
+        "xRaw": 3.9015597867387215,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "04b63270-e199-46cd-acfa-d84fb713b34b",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:07:30.505Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.22524375731243,
+          "z": 2.387868289517778
+        },
+        "worldXYZ": {
+          "x": -18.600101540500035,
+          "y": 24.291094788766554,
+          "z": 0
+        },
+        "station": 32.22524375731243,
+        "xRaw": -5.387868289517778,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "2d771115-284a-42e8-8b86-e8710dc6e37a",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:11:27.090Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 27.635871776636098,
+          "z": 2.759445401990021
+        },
+        "worldXYZ": {
+          "x": -14.774572218215651,
+          "y": 21.755811652436535,
+          "z": 0
+        },
+        "station": 27.635871776636098,
+        "xRaw": 5.759445401990021,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "de6cee21-0f15-4c1c-9f6a-04a4cefb3e4e",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:03.330Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 29.568238926394553,
+          "z": 2.7317157659414946
+        },
+        "worldXYZ": {
+          "x": -18.061298916872744,
+          "y": 20.335006135682114,
+          "z": 2.424363637525635
+        },
+        "station": 29.568238926394553,
+        "xRaw": 5.731715765941495,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "3ecdd530-38f6-4e77-a7ec-4449378f5a60",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:12.793Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.34601670417233,
+          "z": 1.694627388304606
+        },
+        "worldXYZ": {
+          "x": -17.062201764285902,
+          "y": 26.87089584270815,
+          "z": 0.9928881991695634
+        },
+        "station": 32.34601670417233,
+        "xRaw": -4.694627388304606,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "e592fc9c-790e-4125-913c-268074af8570",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:13.257Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 26.428142308037064,
+          "z": 0.9292894227872481
+        },
+        "worldXYZ": {
+          "x": -15.443831485821846,
+          "y": 18.60033872663565,
+          "z": 1.0677661456191614
+        },
+        "station": 26.428142308037064,
+        "xRaw": 3.929289422787248,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "fabd402b-ebbe-442a-a48e-db24ababb335",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:13.927Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 28.23242425918579,
+          "z": 2.4710571976633586
+        },
+        "worldXYZ": {
+          "x": -13.633264518717535,
+          "y": 24.598445145904293,
+          "z": 2.3533631565432724
+        },
+        "station": 28.23242425918579,
+        "xRaw": -5.471057197663359,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "6f2eee65-7ac9-4e87-85de-4323d2479a4b",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:25.101Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.0083188961035664,
+          "y": 29.205920085814842,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -16.09741332369991,
+          "y": 22.64247464030379,
+          "z": -0.25591033788727036
+        },
+        "station": 29.205920085814842,
+        "xRaw": -0.0083188961035664,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "c680ed79-d998-4b15-b1e7-21bcf6be35bf",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:27.841Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.26888259251913,
+          "z": 1.9996533848384015
+        },
+        "worldXYZ": {
+          "x": -16.997905645531155,
+          "y": 26.828285042509094,
+          "z": 1.308865646110752
+        },
+        "station": 32.26888259251913,
+        "xRaw": -4.9996533848384015,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "4c0c6c1f-655f-4594-8996-9bc5e97fcad3",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:45.073Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 29.568238926394553,
+          "z": 1.5559792080619719
+        },
+        "worldXYZ": {
+          "x": -14.746749806048578,
+          "y": 25.33638236547474,
+          "z": 1.2486270796461123
+        },
+        "station": 29.568238926394553,
+        "xRaw": -4.555979208061972,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "6ce923b4-de62-4346-a2c8-8e5cb8a5a629",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:52.429Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 34.761475641370396,
+          "z": 1.694627388304606
+        },
+        "worldXYZ": {
+          "x": -19.075638249709666,
+          "y": 28.205255388128506,
+          "z": 0.6499429289789691
+        },
+        "station": 34.761475641370396,
+        "xRaw": -4.694627388304606,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "3675be1b-74a7-4ebf-a7ab-4356b8c5cd37",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:12:58.880Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 34.278383853930784,
+          "z": 4.550779901302874
+        },
+        "worldXYZ": {
+          "x": -18.672950952624916,
+          "y": 27.938383479044433,
+          "z": 3.5746844960153554
+        },
+        "station": 34.278383853930784,
+        "xRaw": -7.550779901302874,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "f69d48ab-3a39-4c88-bb37-bef310e75ee2",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:13:51.440Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 43.10221592585246,
+          "z": 2.1937608371780897
+        },
+        "worldXYZ": {
+          "x": -26.02816828265674,
+          "y": 32.81288760371939,
+          "z": -0.03513643835437552
+        },
+        "station": 43.10221592585246,
+        "xRaw": -5.19376083717809,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "35cd8afd-acca-4bca-8bf0-a7bde52d61f5",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:13:51.983Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 48.57096592585246,
+          "z": 1.2065857832725166
+        },
+        "worldXYZ": {
+          "x": -33.90126343626064,
+          "y": 30.832584782230036,
+          "z": -1.7987610180508407
+        },
+        "station": 48.57096592585246,
+        "xRaw": 4.206585783272517,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "2c26142c-76b8-4cc0-999e-8056838c8b88",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:06.732Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 25.22041283943803,
+          "z": 2.9147313744397882
+        },
+        "worldXYZ": {
+          "x": -11.1225641322858,
+          "y": 22.934535183718104,
+          "z": 3.2246807323669984
+        },
+        "station": 25.22041283943803,
+        "xRaw": -5.914731374439788,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "3911b9a7-bdf0-4612-9b64-baa97a9bf81e",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:07.499Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 33.07065438533175,
+          "z": 2.426689769407699
+        },
+        "worldXYZ": {
+          "x": -20.9807818207372,
+          "y": 22.26982747654163,
+          "z": 1.6220669992154781
+        },
+        "station": 33.07065438533175,
+        "xRaw": 5.426689769407699,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "be85a88c-a496-40a2-8da4-19a667f09a25",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:09.578Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 33.83138259251913,
+          "z": 1.334142119673757
+        },
+        "worldXYZ": {
+          "x": -18.30034737203965,
+          "y": 27.691448873452885,
+          "z": 0.42151165929156675
+        },
+        "station": 33.83138259251913,
+        "xRaw": -4.334142119673757,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "5643815c-5eba-4790-98c9-651eff2b4e19",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:13.627Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 55.39388259251913,
+          "z": 2.759445401990021
+        },
+        "worldXYZ": {
+          "x": -39.58859230868108,
+          "y": 34.6017335106846,
+          "z": -1.21461461722483
+        },
+        "station": 55.39388259251913,
+        "xRaw": 5.759445401990021,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "6709a73c-32f2-4e2e-ad85-9ba9eb93c2d1",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:15.619Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 52.26888259251913,
+          "z": 3.358405551216218
+        },
+        "worldXYZ": {
+          "x": -33.669159744839924,
+          "y": 37.876782078589635,
+          "z": -0.171969024689552
+        },
+        "station": 52.26888259251913,
+        "xRaw": -6.358405551216218,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "50c5be19-f096-49c4-b137-9990b90b7767",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:38.231Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 23.76840706331184,
+          "z": 1.6893499329541894
+        },
+        "worldXYZ": {
+          "x": -9.912226269912614,
+          "y": 22.132411108023,
+          "z": 2.205454115351126
+        },
+        "station": 23.76840706331184,
+        "xRaw": -4.6893499329541894,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "969de400-bfdd-498e-89c6-4d30daab8f6f",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:41.345Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 28.855421788880783,
+          "z": 1.468049794641603
+        },
+        "worldXYZ": {
+          "x": -14.152572024756878,
+          "y": 24.942604463920325,
+          "z": 1.261902974275698
+        },
+        "station": 28.855421788880783,
+        "xRaw": -4.468049794641603,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "e2dd58ba-25d0-41d6-9740-6fce78661728",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:41.753Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 35.74966543011237,
+          "z": 0.9811894903539127
+        },
+        "worldXYZ": {
+          "x": -19.89935640303265,
+          "y": 28.751155985728545,
+          "z": -0.20379750480900105
+        },
+        "station": 35.74966543011237,
+        "xRaw": -3.9811894903539127,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "0854b54c-8b0c-4f95-bfb5-f000e84ce5d7",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:14:42.496Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 36.15127185581518,
+          "z": 2.2691562911122007
+        },
+        "worldXYZ": {
+          "x": -23.548669652397155,
+          "y": 23.971637126138333,
+          "z": 1.0271494799416945
+        },
+        "station": 36.15127185581518,
+        "xRaw": 5.269156291112201,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "0356248b-a5de-49a1-92bc-41f80445f7d3",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:17:14.004Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 31.742151969872815,
+          "z": 1.9830155926312694
+        },
+        "worldXYZ": {
+          "x": -19.87339175375413,
+          "y": 21.535929726560433,
+          "z": 1.3670127210438747
+        },
+        "station": 31.742151969872815,
+        "xRaw": 4.983015592631269,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "42d5fa35-c4e8-43a4-a216-0c873dabf569",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:17:45.682Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 31.742151969872815,
+          "z": 1.9830155926312694
+        },
+        "worldXYZ": {
+          "x": -19.87339175375413,
+          "y": 21.535929726560433,
+          "z": 1.3670127210438747
+        },
+        "station": 31.742151969872815,
+        "xRaw": 4.983015592631269,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "4cbf3e43-fa14-4bb2-a286-c89afd61829d",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:19:53.099Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.82910849161194,
+          "z": 2.4710571976633586
+        },
+        "worldXYZ": {
+          "x": -17.464889061370656,
+          "y": 27.137767751792218,
+          "z": 1.7007289544901973
+        },
+        "station": 32.82910849161194,
+        "xRaw": -5.471057197663359,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "5d08f305-99c8-4f53-9ce5-ab88fd775ec7",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:19:53.578Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 28.964374192095036,
+          "z": 2.010745228679796
+        },
+        "worldXYZ": {
+          "x": -17.557939795516802,
+          "y": 20.001416249327022,
+          "z": 1.7891294178115849
+        },
+        "station": 28.964374192095036,
+        "xRaw": 5.010745228679796,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "c8158875-bbac-4281-807a-b2a5c7585792",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:19:54.300Z",
+      "data": {
+        "localXYZ": {
+          "x": -2.725823228859199,
+          "y": 24.97721592585246,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -11.07130631732373,
+          "y": 22.57164363378058,
+          "z": 0.3444782956602068
+        },
+        "station": 24.97721592585246,
+        "xRaw": -2.725823228859199,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "9417f407-8354-4df3-85a3-9ad528a0f90c",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:19:54.651Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 20.81054925918579,
+          "z": 2.5542461058089394
+        },
+        "worldXYZ": {
+          "x": -7.241101083068439,
+          "y": 20.271526749480664,
+          "z": 3.4649155908140163
+        },
+        "station": 20.81054925918579,
+        "xRaw": -5.554246105808939,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "bf877e16-111b-49d2-a4dd-f9bed3783d50",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:12.965Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 32.70833554475204,
+          "z": 0.3913344940238437
+        },
+        "worldXYZ": {
+          "x": -17.364217237099467,
+          "y": 27.071049774521207,
+          "z": -0.36184648563978816
+        },
+        "station": 32.70833554475204,
+        "xRaw": -3.3913344940238437,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "d8c4902e-6653-4b96-85ec-80ccda0f4343",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:13.445Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 32.46678965103223,
+          "z": 1.8998266844856886
+        },
+        "worldXYZ": {
+          "x": -20.477422699381254,
+          "y": 21.936237590186536,
+          "z": 1.1809402318411166
+        },
+        "station": 32.46678965103223,
+        "xRaw": 4.899826684485689,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "3b34195a-b6fe-4db3-85cb-07ac0f60c38f",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:26.282Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.895667249656426,
+          "y": 27.877417670355904,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -14.49982997400685,
+          "y": 22.64823738415674,
+          "z": -0.06729043928244338
+        },
+        "station": 27.877417670355904,
+        "xRaw": -0.895667249656426,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "eef6a1e6-27e8-4152-b502-d060c129ab91",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:26.308Z",
+      "data": {
+        "localXYZ": {
+          "x": 0.35216637252728283,
+          "y": 30.051330713834165,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -17.001257114699158,
+          "y": 22.80901340558079,
+          "z": -0.37594118245397834
+        },
+        "station": 30.051330713834165,
+        "xRaw": 0.35216637252728283,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "1f545ae4-2ffb-4fe4-b1f4-a64e3886e9de",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:35.178Z",
+      "data": {
+        "localXYZ": {
+          "x": -0.7292894333652649,
+          "y": 27.515098829776193,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -14.289725741701409,
+          "y": 22.309397109749785,
+          "z": -0.015848648753854055
+        },
+        "station": 27.515098829776193,
+        "xRaw": -0.7292894333652649,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "b9922298-ef00-4c1f-ab2b-78bc991d643f",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:35.453Z",
+      "data": {
+        "localXYZ": {
+          "x": 0.518544188818444,
+          "y": 30.051330713834165,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -17.09316835520728,
+          "y": 22.670327062986885,
+          "z": -0.37594118245397834
+        },
+        "station": 30.051330713834165,
+        "xRaw": 0.518544188818444,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "0df9f362-83d7-4f7a-b046-0de0daaa2de1",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:20:35.735Z",
+      "data": {
+        "localXYZ": {
+          "x": 1.7663778110021529,
+          "y": 31.097007592519127,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -18.65413990653465,
+          "y": 22.20783738827505,
+          "z": -0.5244056974867443
+        },
+        "station": 31.097007592519127,
+        "xRaw": 1.7663778110021529,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "f4cc6201-86d2-4f4e-9459-c8a0b90f7390",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:21:46.867Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 26.30736936117716,
+          "z": 3.358405551216218
+        },
+        "worldXYZ": {
+          "x": -12.028610550726492,
+          "y": 23.534996979157263,
+          "z": 3.514029537557661
+        },
+        "station": 26.30736936117716,
+        "xRaw": -6.358405551216218,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "63845ce5-2d2d-454b-8082-e85dc0d0baeb",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:21:47.588Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 34.278383853930784,
+          "z": 2.4821490415047522
+        },
+        "worldXYZ": {
+          "x": -21.987500063449083,
+          "y": 22.937007249251806,
+          "z": 1.506053636217234
+        },
+        "station": 34.278383853930784,
+        "xRaw": 5.482149041504752,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "79d4825b-b359-48a2-b501-567fcc9257f1",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:22:55.175Z",
+      "data": {
+        "localXYZ": {
+          "x": -3,
+          "y": 31.617840925852462,
+          "z": 1.1123050312855423
+        },
+        "worldXYZ": {
+          "x": -16.45522159281928,
+          "y": 26.468633446282517,
+          "z": 0.5139517599139508
+        },
+        "station": 31.617840925852462,
+        "xRaw": -4.112305031285542,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "a2ec5366-b0fa-4e17-918d-d3a3865c85f7",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:22:56.035Z",
+      "data": {
+        "localXYZ": {
+          "x": 3,
+          "y": 26.91123409547668,
+          "z": 1.2343154193210433
+        },
+        "worldXYZ": {
+          "x": -15.846518782906601,
+          "y": 18.867210635719722,
+          "z": 1.3042030881148372
+        },
+        "station": 26.91123409547668,
+        "xRaw": 4.234315419321043,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "f2f25ba0-3648-4ec4-a0f9-cf54e0a07ef5",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:09.971Z",
+      "data": {
+        "sessionId": "e16b2d37-b63c-4886-838c-f426d77f06c6",
+        "localXYZ": {
+          "x": -3,
+          "y": 26.66968820175687,
+          "z": 2.166031201129563
+        },
+        "worldXYZ": {
+          "x": -12.330626023540058,
+          "y": 23.73515091097031,
+          "z": 2.2702133969424168
+        },
+        "station": 26.66968820175687,
+        "xRaw": -5.166031201129563,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "4296c844-7532-4c7d-80bc-fd870e58ca75",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:10.502Z",
+      "data": {
+        "sessionId": "e16b2d37-b63c-4886-838c-f426d77f06c6",
+        "localXYZ": {
+          "x": 3,
+          "y": 30.29287660755397,
+          "z": 1.872097048437161
+        },
+        "worldXYZ": {
+          "x": -18.66532986249987,
+          "y": 20.735313999308218,
+          "z": 1.4618613389641237
+        },
+        "station": 30.29287660755397,
+        "xRaw": 4.872097048437161,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "01796ca5-8653-407d-9d73-b3c5a5ee1446",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:14.636Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": -0.7292894333652649,
+          "y": 27.515098829776193,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -14.289725741701409,
+          "y": 22.309397109749785,
+          "z": -0.015848648753854055
+        },
+        "station": 27.515098829776193,
+        "xRaw": -0.7292894333652649,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "181e9420-5c44-4877-9512-825c1451a03e",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:14.896Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": 1.7663778110021529,
+          "y": 32.22524375731243,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -19.594595495899586,
+          "y": 22.831103084410934,
+          "z": -0.6845919256255132
+        },
+        "station": 32.22524375731243,
+        "xRaw": 1.7663778110021529,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "66b6ca74-f538-46d7-98b4-e107550b044d",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:24.946Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": -3,
+          "y": 30.055340925852462,
+          "z": 3.192027734925057
+        },
+        "worldXYZ": {
+          "x": -15.152779866310786,
+          "y": 25.60546961533872,
+          "z": 2.8155171852080065
+        },
+        "station": 30.055340925852462,
+        "xRaw": -6.192027734925057,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "7679e4be-ee25-43ee-a40f-12f70f2b948d",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:25.488Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": 3,
+          "y": 32.34601670417233,
+          "z": 1.2897746914180974
+        },
+        "worldXYZ": {
+          "x": -20.37675087511007,
+          "y": 21.869519612915518,
+          "z": 0.5880355022830549
+        },
+        "station": 32.34601670417233,
+        "xRaw": 4.289774691418097,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "96314d45-99ff-4bee-b152-691ce52eb9dc",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:29.738Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": -3,
+          "y": 66.80013259251912,
+          "z": 4.606239173399927
+        },
+        "worldXYZ": {
+          "x": -45.13093930106022,
+          "y": 46.13251312892274,
+          "z": -0.7947558327861861
+        },
+        "station": 66.80013259251912,
+        "xRaw": -7.606239173399927,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "0b7c7b66-69da-4dfc-9f58-61a615dce433",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:23:30.263Z",
+      "data": {
+        "sessionId": "b8718815-696c-4439-bd7c-af2fa7ffb875",
+        "localXYZ": {
+          "x": 3,
+          "y": 73.96159092585246,
+          "z": 2.426689769407699
+        },
+        "worldXYZ": {
+          "x": -53.72914453365835,
+          "y": 48.815354034535474,
+          "z": -3.6868986232787497
+        },
+        "station": 73.96159092585246,
+        "xRaw": 5.426689769407699,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK3",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "7d98cef5-1561-4bb6-a516-2286d9f81cc6",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:25:18.350Z",
+      "data": {
+        "sessionId": "c1f50182-1c9a-45a3-bc44-097172e15d4c",
+        "localXYZ": {
+          "x": -3,
+          "y": 30.896741341853488,
+          "z": 2.4987868337118853
+        },
+        "worldXYZ": {
+          "x": -15.854139873031647,
+          "y": 26.070280115455937,
+          "z": 2.002814806691199
+        },
+        "station": 30.896741341853488,
+        "xRaw": -5.498786833711885,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "cd1ffa93-9159-439a-acf6-e1190e3e1fe5",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-04T22:25:19.001Z",
+      "data": {
+        "sessionId": "c1f50182-1c9a-45a3-bc44-097172e15d4c",
+        "localXYZ": {
+          "x": 3,
+          "y": 28.84360124523513,
+          "z": 3.03674176247529
+        },
+        "worldXYZ": {
+          "x": -17.45726797124561,
+          "y": 19.934698272056004,
+          "z": 2.8322732151166092
+        },
+        "station": 28.84360124523513,
+        "xRaw": 6.03674176247529,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK1",
+          "riskType": "bom sprutbetong"
+        }
+      }
+    },
+    {
+      "id": "42bfedea-fa1d-4c8d-9995-6487776cff4d",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:09.163Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 0.7755102040816326,
+          "y": 31.860567269076306,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -18.74323488501771,
+          "y": 23.45559701212798,
+          "z": -0.6328153978343317
+        },
+        "station": 31.860567269076306,
+        "xRaw": 0.7755102040816326,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "5cee0fd9-4452-4759-a85f-09612f19ea70",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:09.473Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": -3,
+          "y": 32.713980923694784,
+          "z": 2.3605442176870746
+        },
+        "worldXYZ": {
+          "x": -17.36892301444154,
+          "y": 27.074168422147025,
+          "z": 1.606561710836608
+        },
+        "station": 32.713980923694784,
+        "xRaw": -5.360544217687075,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "9af51770-c506-442c-9cd1-4d1253b106f2",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:24.243Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 3,
+          "y": 32.91478413654619,
+          "z": 1.8299319727891152
+        },
+        "worldXYZ": {
+          "x": -20.850854194535874,
+          "y": 22.183720877455606,
+          "z": 1.0474395579348523
+        },
+        "station": 32.91478413654619,
+        "xRaw": 4.829931972789115,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "ce5fca94-31cd-41ee-a7d0-b1670d502fda",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:25.147Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 0.7755102040816326,
+          "y": 31.760165662650607,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -18.65954385038263,
+          "y": 23.40013266957738,
+          "z": -0.618560443832434
+        },
+        "station": 31.760165662650607,
+        "xRaw": 0.7755102040816326,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "ff68b87f-9eb3-4375-8c69-dadc78b5a6f1",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:25.579Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 0.7755102040816326,
+          "y": 31.760165662650607,
+          "z": 0
+        },
+        "worldXYZ": {
+          "x": -18.65954385038263,
+          "y": 23.40013266957738,
+          "z": -0.618560443832434
+        },
+        "station": 31.760165662650607,
+        "xRaw": 0.7755102040816326,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "4b0ca2c3-681f-4c97-b1a6-d9ba483c8df9",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:25.962Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 3,
+          "y": 30.304342369477915,
+          "z": 1.8299319727891152
+        },
+        "worldXYZ": {
+          "x": -18.674887294023684,
+          "y": 20.741647971139876,
+          "z": 1.4180683619842052
+        },
+        "station": 30.304342369477915,
+        "xRaw": 4.829931972789115,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "a5d65d3c-aed5-41c2-9c96-63f151746695",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:26.066Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 3,
+          "y": 30.304342369477915,
+          "z": 1.8299319727891152
+        },
+        "worldXYZ": {
+          "x": -18.674887294023684,
+          "y": 20.741647971139876,
+          "z": 1.4180683619842052
+        },
+        "station": 30.304342369477915,
+        "xRaw": 4.829931972789115,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "3659e759-716e-496b-9fc9-bb3c2ea9e1ec",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:26.321Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 3,
+          "y": 27.34249497991968,
+          "z": 2.537414965986395
+        },
+        "worldXYZ": {
+          "x": -16.206001772288698,
+          "y": 19.10544986589702,
+          "z": 2.5460724982374816
+        },
+        "station": 27.34249497991968,
+        "xRaw": 5.537414965986395,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    },
+    {
+      "id": "a8d50e08-33aa-4c8a-8c2b-273c8a2365cd",
+      "ifcClass": "IfcActionRequest",
+      "name": "RiskObservation",
+      "timestamp": "2026-08-11T06:00:26.722Z",
+      "data": {
+        "sessionId": "7477e608-e9c3-4862-a424-0e2017c7603a",
+        "localXYZ": {
+          "x": 3,
+          "y": 31.358559236947794,
+          "z": 3.503401360544218
+        },
+        "worldXYZ": {
+          "x": -19.55364315769207,
+          "y": 21.32402356792123,
+          "z": 2.941860732719377
+        },
+        "station": 31.358559236947794,
+        "xRaw": 6.503401360544218,
+        "offsets": {
+          "floor": 3,
+          "anfang": 8
+        },
+        "classification": {
+          "classCode": "TK2",
+          "riskType": "bomt bergparti"
+        }
+      }
+    }
+  ]
+}
