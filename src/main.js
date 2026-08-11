@@ -1,6 +1,7 @@
 ﻿import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { buildIfcEventsSpf } from "./ifc-events-spf.js";
+import embeddedAlignmentIfcText from "../alignment.ifc?raw";
 
 const container = document.getElementById("viewer");
 const status = document.getElementById("status");
@@ -254,6 +255,18 @@ async function exportCurrentIfcEvent() {
       content: buildIfcEventsSpf(exportEvents, "alignment.ifc"),
       storedLocally: true
     };
+  }
+}
+
+async function loadAlignmentIfcText() {
+  try {
+    const response = await fetch(alignmentIfcUrl);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    return response.text();
+  } catch {
+    return embeddedAlignmentIfcText;
   }
 }
 
@@ -1307,9 +1320,7 @@ async function init() {
   status.textContent = "Laddar alignment.ifc...";
 
   try {
-    const res = await fetch(alignmentIfcUrl);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const text = await res.text();
+    const text = await loadAlignmentIfcText();
 
     parseIfcPlanData(text);
     alignment3DPoints = parseIfc3DAlignmentData(text);
