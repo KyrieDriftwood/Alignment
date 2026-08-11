@@ -60,8 +60,9 @@ const floorOffset = 3;
 const anfangOffset = 8;
 const anfangHeight = Math.max(0, anfangOffset - floorOffset);
 const markerCubeSize = 0.5;
-const ifcApiBase = `${import.meta.env.BASE_URL}api/ifc-events`;
-const alignmentIfcUrl = `${import.meta.env.BASE_URL}alignment.ifc`;
+const appBaseUrl = new URL(".", document.baseURI);
+const ifcApiBase = new URL("api/ifc-events", appBaseUrl).href;
+const alignmentIfcUrl = new URL("alignment.ifc", appBaseUrl).href;
 const localIfcEventsDbKey = "alignment-ifc-events-db";
 const exportSessionStorageKey = "alignment-export-session-id";
 
