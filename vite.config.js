@@ -340,6 +340,9 @@ function buildIfcEventApiPlugin() {
 
 export default defineConfig({
   base: "./",
+  build: {
+    outDir: "docs"
+  },
   plugins: [buildIfcEventApiPlugin()],
   resolve: {
     alias: {
