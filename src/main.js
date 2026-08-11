@@ -1,5 +1,6 @@
 ﻿import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { buildIfcEventsSpf } from "./ifc-events-spf.js";
 
 const container = document.getElementById("viewer");
 const status = document.getElementById("status");
@@ -59,13 +60,17 @@ const floorOffset = 3;
 const anfangOffset = 8;
 const anfangHeight = Math.max(0, anfangOffset - floorOffset);
 const markerCubeSize = 0.5;
+const ifcApiBase = `${import.meta.env.BASE_URL}api/ifc-events`;
+const alignmentIfcUrl = `${import.meta.env.BASE_URL}alignment.ifc`;
+const localIfcEventsDbKey = "alignment-ifc-events-db";
+const exportSessionStorageKey = "alignment-export-session-id";
 
 let alignmentPoints = [];
 let totalLength = 0;
 let windowStart = 0;
 let trackedMarkers = [];
 let lastRenderState = null;
-const exportSessionId = buildEventId();
+const exportSessionId = getOrCreateExportSessionId();
 
 function classColorHex(classCode) {
   if (classCode === "TK2") return "#b8860b";
@@ -84,6 +89,90 @@ function buildEventId() {
     return globalThis.crypto.randomUUID();
   }
   return `evt-${Date.now()}-${Math.floor(Math.random() * 1_000_000)}`;
+}
+
+function getOrCreateExportSessionId() {
+  try {
+    const existing = window.sessionStorage.getItem(exportSessionStorageKey);
+    if (existing) {
+      return existing;
+    }
+    const nextId = buildEventId();
+    window.sessionStorage.setItem(exportSessionStorageKey, nextId);
+    return nextId;
+  } catch {
+    return buildEventId();
+  }
+}
+
+function readLocalIfcEventsDb() {
+  try {
+    const raw = window.localStorage.getItem(localIfcEventsDbKey);
+    if (!raw) {
+      return { events: [] };
+    }
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      return { events: parsed };
+    }
+    if (parsed && Array.isArray(parsed.events)) {
+      return parsed;
+    }
+  } catch {
+    // Fall through to empty db.
+  }
+
+  return { events: [] };
+}
+
+function writeLocalIfcEventsDb(db) {
+  window.localStorage.setItem(localIfcEventsDbKey, JSON.stringify(db));
+}
+
+function storeLocalIfcEvent(eventRecord) {
+  const db = readLocalIfcEventsDb();
+  const nextEvent = {
+    id: eventRecord.id || buildEventId(),
+    ifcClass: eventRecord.ifcClass || "IfcEvent",
+    name: eventRecord.name || "Tunnel marker",
+    timestamp: eventRecord.timestamp || new Date().toISOString(),
+    data: eventRecord.data || {}
+  };
+  db.events.push(nextEvent);
+  writeLocalIfcEventsDb(db);
+  return nextEvent;
+}
+
+function getLocalIfcEventsForCurrentSession() {
+  return readLocalIfcEventsDb().events.filter((eventRecord) => {
+    return eventRecord?.ifcClass === "IfcActionRequest"
+      && eventRecord?.data?.sessionId === exportSessionId
+      && eventRecord?.data?.worldXYZ;
+  });
+}
+
+function restoreLocalMarkersForCurrentSession() {
+  return getLocalIfcEventsForCurrentSession().map((eventRecord) => {
+    const local = eventRecord.data.localXYZ || {};
+    const world = eventRecord.data.worldXYZ || {};
+
+    return {
+      station: Number(eventRecord.data.station ?? local.y ?? 0),
+      xRaw: Number(eventRecord.data.xRaw ?? 0),
+      classCode: eventRecord.data.classification?.classCode || "TK1",
+      riskType: eventRecord.data.classification?.riskType || "bom sprutbetong",
+      local: {
+        x: Number(local.x ?? 0),
+        y: Number(local.y ?? 0),
+        z: Number(local.z ?? 0)
+      },
+      world: {
+        x: Number(world.x ?? 0),
+        y: Number(world.y ?? 0),
+        z: Number(world.z ?? 0)
+      }
+    };
+  });
 }
 
 async function registerIfcEvent(marker) {
@@ -112,32 +201,59 @@ async function registerIfcEvent(marker) {
     }
   };
 
-  const response = await fetch("/api/ifc-events", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(payload)
-  });
+  try {
+    const response = await fetch(ifcApiBase, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
 
-  if (!response.ok) {
-    throw new Error(`IFC event save failed (${response.status})`);
+    if (!response.ok) {
+      throw new Error(`IFC event save failed (${response.status})`);
+    }
+
+    return response.json();
+  } catch (error) {
+    const savedEvent = storeLocalIfcEvent(payload);
+    return {
+      ok: true,
+      event: savedEvent,
+      count: getLocalIfcEventsForCurrentSession().length,
+      storedLocally: true,
+      error: String(error?.message || error)
+    };
   }
-
-  return response.json();
 }
 
 async function exportCurrentIfcEvent() {
-  const response = await fetch(`/api/ifc-events/export-current?sessionId=${encodeURIComponent(exportSessionId)}`, {
-    method: "POST"
-  });
+  try {
+    const response = await fetch(`${ifcApiBase}/export-current?sessionId=${encodeURIComponent(exportSessionId)}`, {
+      method: "POST"
+    });
 
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`IFC export failed (${response.status}): ${text}`);
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`IFC export failed (${response.status}): ${text}`);
+    }
+
+    return response.json();
+  } catch {
+    const exportEvents = getLocalIfcEventsForCurrentSession();
+    if (!exportEvents.length) {
+      throw new Error("No local IFC event available to export");
+    }
+
+    return {
+      ok: true,
+      fileName: "export.ifc",
+      eventId: exportEvents[exportEvents.length - 1].id,
+      eventCount: exportEvents.length,
+      content: buildIfcEventsSpf(exportEvents, "alignment.ifc"),
+      storedLocally: true
+    };
   }
-
-  return response.json();
 }
 
 function downloadTextFile(fileName, content) {
@@ -1190,12 +1306,14 @@ async function init() {
   status.textContent = "Laddar alignment.ifc...";
 
   try {
-    const res = await fetch("/alignment.ifc");
+    const res = await fetch(alignmentIfcUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
 
     parseIfcPlanData(text);
     alignment3DPoints = parseIfc3DAlignmentData(text);
+
+    trackedMarkers = restoreLocalMarkersForCurrentSession();
 
     if (!alignmentPoints.length) {
       status.textContent = "Ingen plan-geometri hittades i alignment.ifc.";
